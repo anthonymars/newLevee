@@ -4,6 +4,7 @@
     <h1>2017 Live on the Levee Events</h1>
     <hr>
     <div class="col-md-8 col-md-offset-2">
+    @if ($events)
     @foreach($events as $e)
     <div class="row">
       <div class="col-md-4">
@@ -28,6 +29,11 @@
     </div>
     <hr>
     @endforeach
+    @else
+    <div class="alert alert-success">
+      <p>Check Back Soon!</p>
+    </div>
+    @endif
     </div>
   </div>
 @stop

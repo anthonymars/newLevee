@@ -5,7 +5,7 @@
     <div class="col-md-3">
       <div class="socialSpacing">
         <div class="fb-page" data-href="https://www.facebook.com/liveonthelevee/"
-          data-tabs="timeline" data-width="250" data-height="350" data-small-header="false"
+          data-tabs="timeline" data-width="250" data-height="400" data-small-header="false"
           data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
           <blockquote cite="https://www.facebook.com/liveonthelevee/" class="fb-xfbml-parse-ignore">
             <a href="https://www.facebook.com/liveonthelevee/">Live on the Levee</a></blockquote>
