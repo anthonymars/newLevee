@@ -36,12 +36,13 @@
             <label for="sponsor_type">Sponsor Level</label>
             <select name="sponsor_type" id="" class="form-control">
               <option value="a_title">Title Sponsor</option>
-              <option value="b_very">Very Special Friend</option>
-              <option value="c_special">Special Friend</option>
-              <option value="d_friend">Friend</option>
-              <option value="e_contributor">Contributor</option>
-              <option value="f_single">Single Night Sponsor</option>
-              <option value="g_overlook">Overlook Sponsor</option>
+              <option value="b_diamond">Diamond</option>
+              <option value="c_platinum">Platinum</option>
+              <option value="d_gold">Gold</option>
+              <option value="e_silver">Silver</option>
+              <option value="f_bronze">Bronze</option>
+              <option value="g_magnet">Magnet Package</option>
+              <option value="h_video">Video Screen Package</option>
             </select>
           </div>
           <div class="form-group">

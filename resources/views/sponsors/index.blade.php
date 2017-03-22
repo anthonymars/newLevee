@@ -32,9 +32,9 @@
       @endif
       <hr>
 
-      <h3 class="text-center">Very Special Friends</h3>
+      <h3 class="text-center">Diamond</h3>
       <hr>
-      @if ($s->sponsor_type === "b_very")
+      @if ($s->sponsor_type === "b_diamond")
         <img src="/images/sponsors/logos/{{$s->sponsor_logo}}" alt="title sponsor" class="img img-responsive">
         <h4>{{$s->sponsor_name}}</h4>
         <p>{{$s->sponsor_desc}}</p>
@@ -42,9 +42,9 @@
       @endif
       <hr>
 
-      <h3 class="text-center">Special Friends</h3>
+      <h3 class="text-center">Platinum</h3>
       <hr>
-      @if ($s->sponsor_type === "c_special")
+      @if ($s->sponsor_type === "c_platinum")
         <img src="/images/sponsors/logos/{{$s->sponsor_logo}}" alt="title sponsor" class="img img-responsive">
         <h4>{{$s->sponsor_name}}</h4>
         <p>{{$s->sponsor_desc}}</p>
@@ -52,9 +52,9 @@
       @endif
       <hr>
 
-      <h3 class="text-center">Friends</h3>
+      <h3 class="text-center">Gold</h3>
       <hr>
-      @if ($s->sponsor_type === "d_friends")
+      @if ($s->sponsor_type === "d_gold")
         <img src="/images/sponsors/logos/{{$s->sponsor_logo}}" alt="title sponsor" class="img img-responsive">
         <h4>{{$s->sponsor_name}}</h4>
         <p>{{$s->sponsor_desc}}</p>
@@ -62,9 +62,9 @@
       @endif
       <hr>
 
-      <h3 class="text-center">Contributors</h3>
+      <h3 class="text-center">Silver</h3>
       <hr>
-      @if ($s->sponsor_type === "e_contributors")
+      @if ($s->sponsor_type === "e_silver")
         <img src="/images/sponsors/logos/{{$s->sponsor_logo}}" alt="title sponsor" class="img img-responsive">
         <h4>{{$s->sponsor_name}}</h4>
         <p>{{$s->sponsor_desc}}</p>
@@ -72,9 +72,9 @@
       @endif
       <hr>
 
-      <h3 class="text-center">Single Night Sponsor</h3>
+      <h3 class="text-center">Bronze</h3>
       <hr>
-      @if ($s->sponsor_type === "f_single")
+      @if ($s->sponsor_type === "f_bronze")
         <img src="/images/sponsors/logos/{{$s->sponsor_logo}}" alt="title sponsor" class="img img-responsive">
         <h4>{{$s->sponsor_name}}</h4>
         <p>{{$s->sponsor_desc}}</p>
@@ -82,9 +82,19 @@
       @endif
       <hr>
 
-      <h3 class="text-center">Overlook Sponsor</h3>
+      <h3 class="text-center">Magnet Package</h3>
       <hr>
-      @if ($s->sponsor_type === "g_overlook")
+      @if ($s->sponsor_type === "g_magnet")
+        <img src="/images/sponsors/logos/{{$s->sponsor_logo}}" alt="title sponsor" class="img img-responsive">
+        <h4>{{$s->sponsor_name}}</h4>
+        <p>{{$s->sponsor_desc}}</p>
+        <p><a href="http://www.{{$s->sponsor_website}}">{{$s->sponsor_website}}</a></p>
+      @endif
+      <hr>
+
+      <h3 class="text-center">Video Screen Package</h3>
+      <hr>
+      @if ($s->sponsor_type === "h_video")
         <img src="/images/sponsors/logos/{{$s->sponsor_logo}}" alt="title sponsor" class="img img-responsive">
         <h4>{{$s->sponsor_name}}</h4>
         <p>{{$s->sponsor_desc}}</p>
