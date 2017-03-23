@@ -46,7 +46,8 @@ Edit Sponsor
           </div>
           <div class="form-group">
             <label for="sponsor_type">Sponsor Level</label>
-            <select name="sponsor_type" id="" class="form-control" value="{{$sponsor->sponsor_type}}">
+            <select name="sponsor_type" id="" class="form-control">
+              <option value="{{$sponsor->sponsor_type}}">{{$sponsor->sponsor_type}}</option>
               <option value="a_title">Title Sponsor</option>
               <option value="b_diamond">Diamond</option>
               <option value="c_platinum">Platinum</option>
