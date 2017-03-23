@@ -62,7 +62,7 @@ class UsersController extends Controller
         $user = User::whereId($id)->first();
         $roles = Role::all();
         $selectedRoles = $user->roles()->pluck('name')->toArray();
-        return view('admin.useredit', compact('user', 'roles', 'selectedRoles' ));
+        return view('admin.userEdit', compact('user', 'roles', 'selectedRoles' ));
     }
 
     /**
