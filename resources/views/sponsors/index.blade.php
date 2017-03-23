@@ -36,7 +36,7 @@
       <hr>
       @foreach ($sponsors as $s)
       @if ($s->sponsor_type === "b_diamond")
-      @if($sponsor->sponsor_logo === 'default.jpg')
+      @if($s->sponsor_logo === 'default.jpg')
       <img src="/images/pages/logos/lolSmall.png" alt="sponsor" class="img img-responsive">
       @else
         <img src="/images/sponsors/logos/{{$s->sponsor_logo}}" alt="title sponsor" class="img img-responsive">
@@ -51,7 +51,7 @@
       <hr>
       @foreach ($sponsors as $s)
       @if ($s->sponsor_type === "c_platinum")
-      @if($sponsor->sponsor_logo === 'default.jpg')
+      @if($s->sponsor_logo === 'default.jpg')
       <img src="/images/pages/logos/lolSmall.png" alt="sponsor" class="img img-responsive">
       @else
         <img src="/images/sponsors/logos/{{$s->sponsor_logo}}" alt="title sponsor" class="img img-responsive">
@@ -67,7 +67,7 @@
       <hr>
       @foreach ($sponsors as $s)
       @if ($s->sponsor_type === "d_gold")
-      @if($sponsor->sponsor_logo === 'default.jpg')
+      @if($s->sponsor_logo === 'default.jpg')
       <img src="/images/pages/logos/lolSmall.png" alt="sponsor" class="img img-responsive">
       @else
         <img src="/images/sponsors/logos/{{$s->sponsor_logo}}" alt="title sponsor" class="img img-responsive">
@@ -83,7 +83,7 @@
       <hr>
       @foreach ($sponsors as $s)
       @if ($s->sponsor_type === "e_silver")
-      @if($sponsor->sponsor_logo === 'default.jpg')
+      @if($s->sponsor_logo === 'default.jpg')
       <img src="/images/pages/logos/lolSmall.png" alt="sponsor" class="img img-responsive">
       @else
         <img src="/images/sponsors/logos/{{$s->sponsor_logo}}" alt="title sponsor" class="img img-responsive">
@@ -99,7 +99,7 @@
       <hr>
       @foreach ($sponsors as $s)
       @if ($s->sponsor_type === "f_bronze")
-      @if($sponsor->sponsor_logo === 'default.jpg')
+      @if($s->sponsor_logo === 'default.jpg')
       <img src="/images/pages/logos/lolSmall.png" alt="sponsor" class="img img-responsive">
       @else
         <img src="/images/sponsors/logos/{{$s->sponsor_logo}}" alt="title sponsor" class="img img-responsive">
@@ -115,7 +115,7 @@
       <hr>
       @foreach ($sponsors as $s)
       @if ($s->sponsor_type === "g_magnet")
-      @if($sponsor->sponsor_logo === 'default.jpg')
+      @if($s->sponsor_logo === 'default.jpg')
       <img src="/images/pages/logos/lolSmall.png" alt="sponsor" class="img img-responsive">
       @else
         <img src="/images/sponsors/logos/{{$s->sponsor_logo}}" alt="title sponsor" class="img img-responsive">
@@ -131,7 +131,7 @@
       <hr>
       @foreach ($sponsors as $s)
       @if ($s->sponsor_type === "h_video")
-      @if($sponsor->sponsor_logo === 'default.jpg')
+      @if($s->sponsor_logo === 'default.jpg')
       <img src="/images/pages/logos/lolSmall.png" alt="sponsor" class="img img-responsive">
       @else
         <img src="/images/sponsors/logos/{{$s->sponsor_logo}}" alt="title sponsor" class="img img-responsive">
