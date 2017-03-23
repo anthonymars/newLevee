@@ -1,14 +1,14 @@
 @extends('layouts.app')
 @section('title')
-2017 Sponsors
+Admin Sponsors
 @stop
 @section('description')
-2017 Sponsors | Live on the Levee
+admin Sponsor List
 @stop
 @section('content')
 
 <div class="container">
-  <h1>2017 Sponsors</h1>
+  <h1>2017 Sponsor Edit Page</h1>
   <hr>
   <div class="row">
     <!-- Title Sponsor -->
@@ -18,7 +18,7 @@
     <div class="col-md-8 col-md-offset-2">
       @if ($sponsors->count() < 1)
       <div class="alert alert-success">
-        <p>Check Back Soon!</p>
+        <p>No Sponsors Added</p>
       </div>
       @else
       <h3 class="text-center">Title Sponsor</h3>
@@ -29,6 +29,9 @@
           <h4>{{$s->sponsor_name}}</h4>
           <p>{{$s->sponsor_desc}}</p>
           <p><a href="http://www.{{$s->sponsor_website}}">{{$s->sponsor_website}}</a></p>
+            <div class="form-group">
+              <a href="/admin/sponsors/{{$s->id}}/edit" class="btn btn-primary" type="submit">Edit this Sponsor</a>
+            </div>
         <hr>
       @endif
       @endforeach
@@ -40,6 +43,10 @@
         <h4>{{$s->sponsor_name}}</h4>
         <p>{{$s->sponsor_desc}}</p>
         <p><a href="http://www.{{$s->sponsor_website}}">{{$s->sponsor_website}}</a></p>
+          <div class="form-group">
+            <a href="/admin/sponsors/{{$s->id}}/edit" class="btn btn-primary" type="submit">Edit this Sponsor</a>
+          </div>
+
         <hr>
       @endif
       @endforeach
@@ -51,6 +58,9 @@
         <h4>{{$s->sponsor_name}}</h4>
         <p>{{$s->sponsor_desc}}</p>
         <p><a href="http://www.{{$s->sponsor_website}}">{{$s->sponsor_website}}</a></p>
+          <div class="form-group">
+            <a href="/admin/sponsors/{{$s->id}}/edit" class="btn btn-primary" type="submit">Edit this Sponsor</a>
+          </div>
       <hr>
       @endif
       @endforeach
@@ -63,6 +73,9 @@
         <h4>{{$s->sponsor_name}}</h4>
         <p>{{$s->sponsor_desc}}</p>
         <p><a href="http://www.{{$s->sponsor_website}}">{{$s->sponsor_website}}</a></p>
+          <div class="form-group">
+            <a href="/admin/sponsors/{{$s->id}}/edit" class="btn btn-primary" type="submit">Edit this Sponsor</a>
+          </div>
       <hr>
       @endif
       @endforeach
@@ -75,6 +88,9 @@
         <h4>{{$s->sponsor_name}}</h4>
         <p>{{$s->sponsor_desc}}</p>
         <p><a href="http://www.{{$s->sponsor_website}}">{{$s->sponsor_website}}</a></p>
+          <div class="form-group">
+            <a href="/admin/sponsors/{{$s->id}}/edit" class="btn btn-primary" type="submit">Edit this Sponsor</a>
+          </div>
       <hr>
       @endif
       @endforeach
@@ -87,6 +103,9 @@
         <h4>{{$s->sponsor_name}}</h4>
         <p>{{$s->sponsor_desc}}</p>
         <p><a href="http://www.{{$s->sponsor_website}}">{{$s->sponsor_website}}</a></p>
+          <div class="form-group">
+            <a href="/admin/sponsors/{{$s->id}}/edit" class="btn btn-primary" type="submit">Edit this Sponsor</a>
+          </div>
       <hr>
       @endif
       @endforeach
@@ -99,6 +118,9 @@
         <h4>{{$s->sponsor_name}}</h4>
         <p>{{$s->sponsor_desc}}</p>
         <p><a href="http://www.{{$s->sponsor_website}}">{{$s->sponsor_website}}</a></p>
+          <div class="form-group">
+            <a href="/admin/sponsors/{{$s->id}}/edit" class="btn btn-primary" type="submit">Edit this Sponsor</a>
+          </div>
       <hr>
       @endif
       @endforeach
@@ -111,6 +133,9 @@
         <h4>{{$s->sponsor_name}}</h4>
         <p>{{$s->sponsor_desc}}</p>
         <p><a href="http://www.{{$s->sponsor_website}}">{{$s->sponsor_website}}</a></p>
+          <div class="form-group">
+            <a href="/admin/sponsors/{{$s->id}}/edit" class="btn btn-primary" type="submit">Edit this Sponsor</a>
+          </div>
       <hr>
       @endif
       @endforeach

@@ -21,6 +21,11 @@ class SponsorsController extends Controller
         return view('sponsors.index', compact('sponsors'));
     }
 
+    public function adminIndex() {
+      $sponsors = Sponsor::all();
+      return view('admin.adminSponsors', compact('sponsors'));
+    }
+
     /**
      * Show the form for creating a new resource.
      *
@@ -69,7 +74,7 @@ class SponsorsController extends Controller
      */
     public function show($id)
     {
-        //
+
     }
 
     /**
@@ -80,7 +85,8 @@ class SponsorsController extends Controller
      */
     public function edit($id)
     {
-        //
+      $sponsor = Sponsor::whereId($id)->first();
+      return view('admin.sponsorEdit', compact('sponsor'));
     }
 
     /**
@@ -92,7 +98,28 @@ class SponsorsController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+      $sponsor = Sponsor::whereId($id)->first();
+      $sponsor->user_id = Auth::id();
+      $sponsor->sponsor_name = $request->sponsor_name;
+      $sponsor->sponsor_year = $request->sponsor_year;
+      $sponsor->sponsor_website = $request->sponsor_website;
+      $sponsor->sponsor_desc = $request->sponsor_desc;
+      $sponsor->sponsor_type = $request->sponsor_type;
+
+      if ($request->hasFile('sponsor_logo')) {
+        $sponsor_logo = $request->file('sponsor_logo');
+        $time = time();
+        $filename = 'sponsor-' . $time . '.' . $sponsor_logo->getClientOriginalExtension();
+        Image::make($sponsor_logo)->resize(300, null, function($constraint) {
+          $constraint->aspectRatio();
+        })->save( public_path('/images/sponsors/logos/' .$filename));
+        $sponsor->sponsor_logo = $filename;
+      } else {
+        $sponsor->sponsor_logo = $sponsor->sponsor_logo;
+      }
+
+      $sponsor->save();
+      return back()->with('status', 'Sponsor has been updated');
     }
 
     /**

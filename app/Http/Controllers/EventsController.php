@@ -90,7 +90,7 @@ class EventsController extends Controller
     	  }
 
         $event->save();
-        return back();
+        return back()->with('status', 'Event Created');
     }
 
     /**
@@ -175,7 +175,7 @@ class EventsController extends Controller
       }
 
       $event->save();
-      return back();
+      return back()->with('status', 'Event Updated');
     }
 
     /**

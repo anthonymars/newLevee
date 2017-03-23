@@ -4,6 +4,11 @@
   <h1>Edit {{$event->date}}</h1>
   <hr>
   <div class="row">
+    @if (session('status'))
+    <div class="alert alert-success">
+      <p>{{session('status')}}</p>
+    </div>
+    @endif
       <h4>Event / Band Info</h4>
       <hr>
       <form enctype="multipart/form-data" action="" method="post">

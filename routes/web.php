@@ -34,8 +34,11 @@ Route::group(['middleware' => 'leveemanager'], function() {
   Route::get('/admin/events/{id}/edit', 'EventsController@edit');
   Route::post('/admin/events/{id}/edit', 'EventsController@update');
 
+  Route::get('/admin/sponsors', 'SponsorsController@adminIndex');
   Route::get('/admin/sponsors/create', 'SponsorsController@create');
   Route::post('/admin/sponsors', 'SponsorsController@store');
+  Route::get('/admin/sponsors/{id}/edit', 'SponsorsController@edit');
+  Route::post('/admin/sponsors/{id}/edit', 'SponsorsController@update');
 });
 
 Route::group(['middleware' => 'supermanager'], function() {

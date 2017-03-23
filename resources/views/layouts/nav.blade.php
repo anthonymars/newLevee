@@ -38,6 +38,7 @@
                               @if (Auth::user()->hasRole('LeveeManager'))
                               <li><a href="/admin/events">All Events</a></li>
                               <li><a href="/admin/events/create">Create Event</a></li>
+                              <li><a href="/admin/sponsors">All Sponsors</a></li>
                               <li><a href="/admin/sponsors/create">Add Sponsor</a></li>
                               @endif
                               @if (Auth::user()->hasRole('SuperManager'))
