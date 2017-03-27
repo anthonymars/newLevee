@@ -139,7 +139,7 @@ class EventsController extends Controller
       if($request->hasFile('open_image')){
       $open_image = $request->file('open_image');
       $time = time();
-      $filename = '0-' . $time . $open_image->getClientOriginalExtension();
+      $filename = '0-' . $time . '.' . $open_image->getClientOriginalExtension();
       $filesm = 'small-open' . $filename;
       $filelg = 'large-open' . $filename;
       Image::make($open_image)->resize(400, null, function ($constraint) {
@@ -158,7 +158,7 @@ class EventsController extends Controller
       if($request->hasFile('headline_image')){
       $headline_image = $request->file('headline_image');
       $time2 = time();
-      $filename2 = 'h-' . $time2 . $headline_image->getClientOriginalExtension();
+      $filename2 = 'h-' . $time2 . '.' . $headline_image->getClientOriginalExtension();
       $filesm2 = 'small-headline' . $filename2;
       $filelg2 = 'large-headline' . $filename2;
       Image::make($headline_image)->resize(400, null, function ($constraint) {
