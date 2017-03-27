@@ -16,11 +16,11 @@
         <div class="col-md-6">
           <div class="form-group">
             <label for="date">Date</label>
-            <input type="date" class="form-control" name="date" value={{$event->date}}>
+            <input type="date" class="form-control" name="date" value="{{$event->date}}">
           </div>
           <div class="form-group">
             <label for="open">Opening Act</label>
-            <input type="text" class="form-control" name="open" value={{$event->open}}>
+            <input type="text" class="form-control" name="open" value="{{$event->open}}">
           </div>
           <div class="form-group">
             <label for="open_bio">Opening Act Bio</label>
@@ -40,12 +40,12 @@
         <div class="col-md-6">
         <div class="form-group">
           <label for="night_tag">Night Headline Tag</label>
-          <input type="text" class="form-control" name="night_tag" value={{$event->night_tag}}>
+          <input type="text" class="form-control" name="night_tag" value="{{$event->night_tag}}">
         </div>
 
         <div class="form-group">
           <label for="headline">Headlining Act</label>
-          <input type="text" name="headline" class="form-control" value={{$event->headline}}>
+          <input type="text" name="headline" class="form-control" value="{{$event->headline}}">
         </div>
         <div class="form-group">
           <label for="headline_bio">Headlining Act Bio</label>
