@@ -20,11 +20,11 @@
         </div>
         <div class="col-md-8">
           <a href="/events/{{$e->id}}">
-            <h4 class="dateHeading">{{$e->date}}
+            <h4 class="dateHeading"> {{ date('F d', strtotime($e->date)) }}:
             @if($e->night_tag)
             {{$e->night_tag}}
             @else
-            |
+
             @endif
             </h4></a>
           <p>Headliner: <strong>{{$e->headline}}</strong>

@@ -40,10 +40,11 @@ Information and rules for Charleston WV's Live on the Levee
       <h3>ATTENTION ALL BOATERS!</h3>
       <ul>
         <li>Boaters will need valid photo ID, proof of liability insurance coverage no less than $100,000 water liability per occurrence.</li>
-        <li>See Nikki Smith in the City Manager’s Office at 304-348-8014</li>
+        <li>See Caroline Mitchell in the City Manager’s Office at 304-348-8014</li>
       </ul>
     </div>
   </div>
+  <hr>
 </div>
 
 

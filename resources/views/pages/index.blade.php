@@ -55,7 +55,7 @@ Live on the Levee | Charleston, WV's Free Friday Concert Series
     <div class="overlay">
       <h2>Good Cause!</h2>
       <p>Moses Automotive Live on the Levee supports five local charities</p>
-      <p><a href="" class="btn btn-main">2017 Charities</a></p>
+      <p><a href="/charities" class="btn btn-main">2017 Charities</a></p>
     </div>
   </div>
 </div>
@@ -66,7 +66,7 @@ Live on the Levee | Charleston, WV's Free Friday Concert Series
   <div class="overlay">
     <h2>Sponsors</h2>
     <p>The City of Charleston is grateful for the local business and individual support!</p>
-    <p><a href="" class="btn btn-main">2017 Sponsors</a></p>
+    <p><a href="/2017-sponsors" class="btn btn-main">2017 Sponsors</a></p>
   </div>
 </div>
 </div>
@@ -95,7 +95,7 @@ Live on the Levee | Charleston, WV's Free Friday Concert Series
             @endif
           </div>
           <div class="col-md-9">
-            <h4 class=""><strong>{{$e->date}}:
+            <h4 class=""><strong>{{date('F d', strtotime($e->date))}}:
             @if($e->night_tag)
             {{$e->night_tag}}</strong></h4>
             @else

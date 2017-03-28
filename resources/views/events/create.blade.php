@@ -24,7 +24,7 @@
           </div>
           <div class="form-group">
             <label for="open_bio">Opening Act Bio</label>
-            <textarea name="open_bio" class="form-control" id="" cols="30" rows="10"></textarea>
+            <textarea name="open_bio" class="form-control summernote" id="" cols="30" rows="10"></textarea>
           </div>
           <div class="form-group">
             <label for="open_image">Opening Act Image (If no image provided a default is loaded)</label>
@@ -43,7 +43,7 @@
         </div>
         <div class="form-group">
           <label for="headline_bio">Headlining Act Bio</label>
-          <textarea name="headline_bio" class="form-control" id="" cols="30" rows="10"></textarea>
+          <textarea name="headline_bio" class="form-control summernote" id="" cols="30" rows="10"></textarea>
         </div>
         <div class="form-group">
           <label for="headline_image">Headlining Act Image (If no image provided a default is loaded)</label>

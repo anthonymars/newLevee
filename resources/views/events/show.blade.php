@@ -31,5 +31,6 @@
       <p>{!! $event->open_bio !!}</p>
     </div>
   </div>
+  <hr>
 </div>
 @stop
