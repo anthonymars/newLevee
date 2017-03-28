@@ -313,9 +313,11 @@ h1,
 /* *********************FOOTER ************************** */
 
 footer {
-  background-color: rgb(10,51,93);
-  min-height:400px;
+  background:url('../images/pages/footer.jpg') no-repeat center center fixed;
+  background-size:cover;
   border-top:1px solid #ecf318;
+  color:#ecf318;
+  font-weight:600;
 }
 
 .socialSpacing {

@@ -7987,8 +7987,11 @@ body {
 /* *********************FOOTER ************************** */
 footer {
   background-color: #0a335d;
-  min-height: 400px;
+  background: url("../images/pages/footer.jpg") no-repeat center center fixed;
+  background-size: cover;
   border-top: 1px solid #ecf318;
+  color: #ecf318;
+  font-weight: 600;
 }
 
 .socialSpacing {
