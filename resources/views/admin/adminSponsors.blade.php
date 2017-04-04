@@ -110,10 +110,10 @@ admin Sponsor List
       @endif
       @endforeach
 
-      <h3 class="text-center">Magnet Package</h3>
+      <h3 class="text-center">Media Sponsors</h3>
       <hr>
       @foreach ($sponsors as $s)
-      @if ($s->sponsor_type === "g_magnet")
+      @if ($s->sponsor_type === "g_media")
         <img src="/images/sponsors/logos/{{$s->sponsor_logo}}" alt="title sponsor" class="img img-responsive">
         <h4>{{$s->sponsor_name}}</h4>
         <p>{{$s->sponsor_desc}}</p>
@@ -124,22 +124,6 @@ admin Sponsor List
       <hr>
       @endif
       @endforeach
-
-      <h3 class="text-center">Video Screen Package</h3>
-      <hr>
-      @foreach ($sponsors as $s)
-      @if ($s->sponsor_type === "h_video")
-        <img src="/images/sponsors/logos/{{$s->sponsor_logo}}" alt="title sponsor" class="img img-responsive">
-        <h4>{{$s->sponsor_name}}</h4>
-        <p>{{$s->sponsor_desc}}</p>
-        <p><a href="http://www.{{$s->sponsor_website}}">{{$s->sponsor_website}}</a></p>
-          <div class="form-group">
-            <a href="/admin/sponsors/{{$s->id}}/edit" class="btn btn-primary" type="submit">Edit this Sponsor</a>
-          </div>
-      <hr>
-      @endif
-      @endforeach
-
 
       @endif
     </div>
