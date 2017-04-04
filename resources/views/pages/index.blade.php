@@ -85,6 +85,13 @@ Live on the Levee | Charleston, WV's Free Friday Concert Series
       </div>
       <div class="col-md-6 leftEvent">
         <h3 class="dropDownh3">Upcoming Events</h3>
+        @if ($events->count() < 1)
+          <h3>Line-Up will be Announced May 13, 2017 at <span class="mainColor">HADDAD RIVERFRONT PARK!</span></h3>
+          <h3>2017 Sponsors:</h3>
+          <h4>To Become a <span class="mainColor">SPONSOR</span> or find out more information download our sponsor packet:
+            <p><a class="btn btn-success" href="../docs/sponsors/lolSPONSOR2017.pdf">SPONSOR PACKET</a></p>
+          </h4>
+        @else
         @foreach($events as $e)
         <div class="row">
           <div class="col-md-3">
@@ -107,6 +114,7 @@ Live on the Levee | Charleston, WV's Free Friday Concert Series
         </div>
         <hr>
         @endforeach
+        @endif
       </div>
     </div>
   </div>

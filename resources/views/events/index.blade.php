@@ -5,8 +5,15 @@
     <hr>
     <div class="col-md-8 col-md-offset-2">
     @if ($events->count() < 1)
-    <div class="alert alert-success">
-      <p>Check Back Soon!</p>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4>Line-Up will be Announced May 13, 2017 at <span class="mainColor">HADDAD RIVERFRONT PARK!</span></h4>
+      </div>
+      <div class="panel-body">
+          <div class="embed-responsive embed-responsive-4by3">
+            <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3128.9784192081934!2d-81.64065418437279!3d38.34948153665808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x884f2cd188dd97b1%3A0x71d350c4e0639ca6!2sHaddad+Riverfront+Park%2C+Charleston%2C+WV+25301!5e0!3m2!1sen!2sus!4v1453407931542"></iframe>
+          </div>
+      </div>
     </div>
     @else
     @foreach($events as $e)

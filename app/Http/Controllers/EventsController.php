@@ -17,7 +17,8 @@ class EventsController extends Controller
      */
     public function index()
     {
-        $events = Event::orderBy('date')->get();
+        //$events = Event::orderBy('date')->get();
+        $events = Event::where('year', '2018')->orderBy('date')->get();
         return view('events.index', compact('events'));
     }
 

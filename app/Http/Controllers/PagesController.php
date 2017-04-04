@@ -10,7 +10,10 @@ class PagesController extends Controller
 {
     public function index() {
       $date = date("Y/m/d");
-      $events = Event::where('date', '>=', $date)->take(3)->get();
+      $events = Event::where([
+        ['date', '>=', $date],
+        ['year', '=', '2018']
+        ])->take(3)->get();
       return view('pages.index', compact('events'));
     }
 

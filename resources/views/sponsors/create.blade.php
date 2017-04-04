@@ -41,8 +41,7 @@
               <option value="d_gold">Gold</option>
               <option value="e_silver">Silver</option>
               <option value="f_bronze">Bronze</option>
-              <option value="g_magnet">Magnet Package</option>
-              <option value="h_video">Video Screen Package</option>
+              <option value="g_media">Media Sponsor</option>
             </select>
           </div>
           <div class="form-group">

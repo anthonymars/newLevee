@@ -26,12 +26,21 @@ h1,
  body {
  	margin-top:50px;
  }
+ $highlight: #ecf318;
+ $mainColor: #0a335d;
 
+ .highlight {
+   color: $highlight;
+ }
+
+ .mainColor {
+   color: $mainColor;
+ }
 /*  NAVBAR -------------------------------------------------------------------------  */
 
  .navbar-default {
  	background-color:#000;
- 	border-bottom: 1px solid #ecf318;
+ 	border-bottom: 1px solid $highlight;
  }
 
  .navbar-default .navbar-nav>li>a {
@@ -40,7 +49,7 @@ h1,
  }
 
  .navbar-default .navbar-nav>li>a:hover {
- 	color: #ecf318;
+ 	color: $highlight;
  }
 
  .navbar-default .navbar-brand {
@@ -104,8 +113,8 @@ h1,
  .infoBanner {
  	background-color: rgb(10,51,93);
  	color:#f8f8f8;
- 	border-top:1px solid #ecf318;
- 	border-bottom:1px solid #ecf318;
+ 	border-top:1px solid $highlight;
+ 	border-bottom:1px solid $highlight;
  }
 
  .infoBanner .media-object {
@@ -122,7 +131,7 @@ h1,
  }
 
  .leftEvent {
-   border-left:1px solid #0a335d;
+   border-left:1px solid $mainColor;
  }
 
  @media(max-width:767px) {
@@ -158,7 +167,7 @@ h1,
   text-align: center;
   cursor: default;
   background: #000;
-  border-bottom: 1px solid #ecf318;
+  border-bottom: 1px solid $highlight;
 }
 
 .hovereffect .overlay {
@@ -250,7 +259,7 @@ h1,
  }
 
  .embed-responsive {
-   border:1px solid #0a335d;
+   border:1px solid $mainColor;
    margin-right:25px;
    margin-left:25px;
  }
@@ -315,8 +324,8 @@ h1,
 footer {
   background:url('../images/pages/footer.jpg') no-repeat center center fixed;
   background-size:cover;
-  border-top:1px solid #ecf318;
-  color:#ecf318;
+  border-top:1px solid $highlight;
+  color:$highlight;
   font-weight:600;
 }
 
