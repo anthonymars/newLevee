@@ -19,18 +19,18 @@
                 <div class="collapse navbar-collapse" id="app-navbar-collapse">
                     <!-- Left Side Of Navbar -->
                     <ul class="nav navbar-nav">
-                        <li><a href="/events"><strong>2017 Line-Up</strong></a></li>
-                        <li><a href="/information"><strong>Information</strong></a></li>
-                        <li><a href="/2017-sponsors"><strong>Sponsors</strong></a></li>
-                        <li><a href="/charities"><strong>Charities</strong></a></li>
+
                     </ul>
 
                     <!-- Right Side Of Navbar -->
                     <ul class="nav navbar-nav navbar-right">
+                      <li><a href="/events"><strong>2017 Line-Up</strong></a></li>
+                      <li><a href="/information"><strong>Information</strong></a></li>
+                      <li><a href="/2017-sponsors"><strong>Sponsors</strong></a></li>
+                      <li><a href="/charities"><strong>Charities</strong></a></li>
                         <!-- Authentication Links -->
                         @if (Auth::guest())
-                            <li><a href="{{ url('/login') }}">Login</a></li>
-                            <li><a href="{{ url('/register') }}">Register</a></li>
+
                         @else
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Admin<span class="caret"></span></a>

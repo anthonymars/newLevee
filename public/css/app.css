@@ -7734,6 +7734,10 @@ body {
   color: #f8f8f8;
 }
 
+.navbar-header .navbar-brand:hover {
+  color: #ecf318;
+}
+
 /* ______________________________________________________________ Middle Banners  */
 .mainBanner {
   background: url("../images/slider/slide1.jpg") no-repeat center center;
