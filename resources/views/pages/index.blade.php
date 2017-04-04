@@ -28,8 +28,8 @@ Live on the Levee | Charleston, WV's Free Friday Concert Series
       <div class="col-md-8">
         <h2 class="media-heading text-center">Charleston, WV's Free Concert Series</h2>
         <hr>
-        <p class="text-center">Live on the Levee will take place every Friday afternoon from May 27, 2016 –
-        September 2, 2016. Music starts at 6:30pm with the headliner starting at 7:30pm.
+        <p class="text-center">Live on the Levee will take place every Friday afternoon from May 26, 2016 –
+        September 1, 2016. Music starts at 6:30pm with the headliner starting at 7:30pm.
         Entry starts at 5:00pm and will end around 9:30pm. Admission to this fantastic
         event is Free of Charge!</p>
       </div>
@@ -86,7 +86,7 @@ Live on the Levee | Charleston, WV's Free Friday Concert Series
       <div class="col-md-6 leftEvent">
         <h3 class="dropDownh3">Upcoming Events</h3>
         @if ($events->count() < 1)
-          <h3>Line-Up will be Announced May 13, 2017 at <span class="mainColor">HADDAD RIVERFRONT PARK!</span></h3>
+          <h3>Line-Up will be Announced May 12, 2017 at <span class="mainColor">HADDAD RIVERFRONT PARK!</span></h3>
           <h3>2017 Sponsors:</h3>
           <h4>To Become a <span class="mainColor">SPONSOR</span> or find out more information download our sponsor packet:
             <p><a class="btn btn-success" href="../docs/sponsors/lolSPONSOR2017.pdf">SPONSOR PACKET</a></p>
