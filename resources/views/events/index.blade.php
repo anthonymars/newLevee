@@ -7,7 +7,7 @@
     @if ($events->count() < 1)
     <div class="panel panel-default">
       <div class="panel-heading">
-        <h4>Line-Up will be Announced May 13, 2017 at <span class="mainColor">HADDAD RIVERFRONT PARK!</span></h4>
+        <h4>Line-Up will be Announced May 12, 2017 at <span class="mainColor">HADDAD RIVERFRONT PARK!</span></h4>
       </div>
       <div class="panel-body">
           <div class="embed-responsive embed-responsive-4by3">
