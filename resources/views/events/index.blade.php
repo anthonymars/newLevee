@@ -43,4 +43,5 @@
     @endif
     </div>
   </div>
+  @include('layouts.analyticstracking')
 @stop

@@ -68,5 +68,5 @@ Charities | Live on the Levee
 
 
 
-
+@include('layouts.analyticstracking')
 @stop

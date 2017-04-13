@@ -119,5 +119,5 @@ Live on the Levee | Charleston, WV's Free Friday Concert Series
     </div>
   </div>
 
-
+@include('layouts.analyticstracking')
 @endsection

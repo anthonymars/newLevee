@@ -47,5 +47,5 @@ Information and rules for Charleston WV's Live on the Levee
   <hr>
 </div>
 
-
+@include('layouts.analyticstracking')
 @stop

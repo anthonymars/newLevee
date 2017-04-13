@@ -34,6 +34,5 @@
     <!-- Scripts -->
     <script src="/js/app.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.2/summernote.js"></script>
-    @include('layouts.analyticstracking')
 </body>
 </html>
