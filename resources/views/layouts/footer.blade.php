@@ -3,6 +3,9 @@
     <div class="row">
       <div class="col-md-6">
         <img src="../images/pages/logos/loLarger.png" alt="LOL" class="img img-responsive">
+        <p>For more information contact:<br />
+          <a href="mailto:cari..morris@cityofcharleston.org">cari.morris@cityofcharleston.org</a>
+        </p>
       </div>
 
       <div class="col-md-3">

@@ -55,6 +55,7 @@ Edit Sponsor
               <option value="e_silver">Silver</option>
               <option value="f_bronze">Bronze</option>
               <option value="g_media">Media Sponsor</option>
+              <option value="h_kind">In - Kind Sponsor</option>
             </select>
           </div>
           <div class="form-group">

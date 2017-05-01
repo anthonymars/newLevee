@@ -131,6 +131,22 @@
       @endif
       @endforeach
 
+      <h3 class="text-center">In-Kind Sponsors</h3>
+      <hr>
+      @foreach ($sponsors as $s)
+      @if ($s->sponsor_type === "h_kind")
+      @if($s->sponsor_logo === 'default.jpg')
+      <img src="/images/pages/logos/lolSmall.png" alt="sponsor" class="img img-responsive">
+      @else
+        <img src="/images/sponsors/logos/{{$s->sponsor_logo}}" alt="title sponsor" class="img img-responsive">
+      @endif
+        <h4>{{$s->sponsor_name}}</h4>
+        <p>{{$s->sponsor_desc}}</p>
+        <p><a href="http://www.{{$s->sponsor_website}}">{{$s->sponsor_website}}</a></p>
+      <hr>
+      @endif
+      @endforeach
+
 
 
       @endif

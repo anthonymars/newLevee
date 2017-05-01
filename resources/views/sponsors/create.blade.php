@@ -5,6 +5,9 @@
   <h1>Add a Sponsor</h1>
   <hr>
   <div class="col-md-8 col-md-offset-2">
+    <div class="alert alert-success">
+      <p>{{session('status')}}</p>
+    </div>
     <div class="panel panel-default">
       <div class="panel-heading">
         <h3>Sponsor Info:</h3>
@@ -42,6 +45,7 @@
               <option value="e_silver">Silver</option>
               <option value="f_bronze">Bronze</option>
               <option value="g_media">Media Sponsor</option>
+              <option value="h_kind">In - Kind Sponsor</option>
             </select>
           </div>
           <div class="form-group">

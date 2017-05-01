@@ -7807,6 +7807,10 @@ body {
   padding: 15px;
 }
 
+.infoBanner p {
+  font-size: 1.1em;
+}
+
 .leftEvent {
   border-left: 1px solid #0a335d;
 }

@@ -8,7 +8,8 @@
                 <div class="panel-heading">Dashboard</div>
 
                 <div class="panel-body">
-                    You are logged in!
+                    You are logged in! Please feel free to think about all the ways you contribute to society and your workplace!
+                    
                 </div>
             </div>
         </div>
