@@ -28,8 +28,8 @@ Live on the Levee | Charleston, WV's Free Friday Concert Series
       <div class="col-md-8">
         <h2 class="media-heading text-center">Charleston, WV's Free Concert Series</h2>
         <hr>
-        <p class="text-center">Live on the Levee will take place every Friday afternoon from May 26, 2016 –
-        September 1, 2016. Music starts at 6:30pm with the headliner starting at 7:30pm.
+        <p class="text-center">Live on the Levee will take place every Friday afternoon from May 26, 2017 –
+        September 1, 2017. Music starts at 6:30pm with the headliner starting at 7:30pm.
         Entry starts at 5:00pm and will end around 9:30pm. Admission to this fantastic
         event is Free of Charge!</p>
       </div>
