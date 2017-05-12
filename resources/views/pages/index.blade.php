@@ -94,14 +94,14 @@ Live on the Levee | Charleston, WV's Free Friday Concert Series
         @else
         @foreach($events as $e)
         <div class="row">
-          <div class="col-md-3">
+          <div class="col-md-4">
             @if($e->headline_image === 'default.jpg')
             <a href="/events/{{$e->id}}"><img src="/images/bands/2017/default-small.jpg" alt="headliner" class="imgList img img-responsive"></a>
             @else
             <a href="/events/{{$e->id}}"><img src="/images/bands/2017/small-headline{{$e->headline_image}}" alt="headliner" class="imgList img img-responsive"></a>
             @endif
           </div>
-          <div class="col-md-9">
+          <div class="col-md-8">
             <a href="/events/{{$e->id}}">
             <h4 class=""><strong>{{date('F d', strtotime($e->date))}}:
             @if($e->night_tag)
