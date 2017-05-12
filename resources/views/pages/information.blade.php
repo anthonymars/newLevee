@@ -24,7 +24,7 @@ Information and rules for Charleston WV's Live on the Levee
         headliner starting at 7:30pm. Entry starts at 5:00pm and will end around 9:30pm. Admission to this fantastic event is free of charge!</p>
       <p>For more information on the line-up check out the schedule (here).</p>
       <p>Boats are more than welcome on a first come first served basis.</p>
-      <p>2016 marks the thirteenth season of Moses Live on the Levee and the seventh year for the brand new Schoenbaum Stage and retractable canopy.</p>
+      <p>2017 marks the fourteenth season of Moses Live on the Levee and the seventh year for the brand new Schoenbaum Stage and retractable canopy.</p>
       <p>Profits from the 50/50 raffle are drawn at 8:15pm to help raise money for a collective of Charleston area charities supported by Live on
         the Levee. The winner will receive half of what was collected, the other half will be equally split between all the charities.</p>
       <p>Domestic Beer and Wine will be on sale as well as multiple food vendors.</p>
