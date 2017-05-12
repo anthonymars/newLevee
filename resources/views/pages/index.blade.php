@@ -102,11 +102,12 @@ Live on the Levee | Charleston, WV's Free Friday Concert Series
             @endif
           </div>
           <div class="col-md-9">
+            <a href="/events/{{$e->id}}">
             <h4 class=""><strong>{{date('F d', strtotime($e->date))}}:
             @if($e->night_tag)
-            {{$e->night_tag}}</strong></h4>
+            {{$e->night_tag}}</strong></h4></a>
             @else
-            </strong></h4>
+          </strong>
             @endif
             <p><strong>Headlining Act: </strong>{{$e->headline}}
             <br><strong>Opening Act: </strong>{{$e->open}}</p>
