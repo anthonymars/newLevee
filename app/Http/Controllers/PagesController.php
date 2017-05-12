@@ -12,8 +12,8 @@ class PagesController extends Controller
       $date = date("Y/m/d");
       $events = Event::where([
         ['date', '>=', $date],
-        ['year', '=', '2018']
-        ])->take(3)->get();
+        ['year', '=', '2017']
+        ])->orderBy('date', 'asc')->take(3)->get();
       return view('pages.index', compact('events'));
     }
 
