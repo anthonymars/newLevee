@@ -20,7 +20,7 @@ Information and rules for Charleston WV's Live on the Levee
         made possible by sponsorship and private donations.
       </p>
       <p>The event features live music of various styles, including local and national acts, in a welcoming family friendly atmosphere.</p>
-      <p>Live on the Levee will take place every Friday afternoon from May 26, 2016 – September 1, 2016. Music starts at 6:30pm with the
+      <p>Live on the Levee will take place every Friday afternoon from May 26, 2017 – September 1, 2017. Music starts at 6:30pm with the
         headliner starting at 7:30pm. Entry starts at 5:00pm and will end around 9:30pm. Admission to this fantastic event is free of charge!</p>
       <p>For more information on the line-up check out the schedule (here).</p>
       <p>Boats are more than welcome on a first come first served basis.</p>
