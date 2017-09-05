@@ -42,7 +42,7 @@ Live on the Levee | Charleston, WV's Free Friday Concert Series
       <div class="hovereffect">
         <img src="../images/pages/goodFun.jpg" alt="Good Fun" class="img-responsive">
         <div class="overlay">
-          <h2>Good Fun!</h2>
+          <a href="/events"><h2>Good Fun!</h2></a>
           <p>Free Every Friday</p>
           <p><a href="/events" class="btn btn-main">2017 Events</a></p>
         </div>
@@ -53,7 +53,7 @@ Live on the Levee | Charleston, WV's Free Friday Concert Series
   <div class="hovereffect">
     <img src="../images/pages/goodCause.jpg" alt="Good Cause" class="img-responsive">
     <div class="overlay">
-      <h2>Good Cause!</h2>
+      <a href="/charities"><h2>Good Cause!</h2></a>
       <p>Moses Automotive Live on the Levee supports five local charities</p>
       <p><a href="/charities" class="btn btn-main">2017 Charities</a></p>
     </div>
@@ -64,7 +64,7 @@ Live on the Levee | Charleston, WV's Free Friday Concert Series
 <div class="hovereffect">
   <img src="../images/pages/sponsors.jpg" alt="Sponsors" class="img-responsive">
   <div class="overlay">
-    <h2>Sponsors</h2>
+    <a href="/2017-sponsors"><h2>Sponsors</h2></a>
     <p>The City of Charleston is grateful for the local business and individual support!</p>
     <p><a href="/2017-sponsors" class="btn btn-main">2017 Sponsors</a></p>
   </div>
