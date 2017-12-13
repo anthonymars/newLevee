@@ -86,8 +86,9 @@ Live on the Levee | Charleston, WV's Free Friday Concert Series
       <div class="col-md-6 leftEvent">
         <h3 class="dropDownh3">Upcoming Events</h3>
         @if ($events->count() < 1)
-          <h3><span class="mainColor">THANK YOU FOR A GREAT YEAR!</span></h3>
-          <h4>We will be announcing our next lineup in April, 2018!</h4>
+          <h3><span class="mainColor">WE ARE NOW ACCEPTING BAND SUBMISSIONS!</span></h3>
+          <h4>Download the form below:</h4>
+          <a href="{{ asset('/docs/lotlBandSubmissionForm2018.docx') }}">2018 Band Submission Form</a>
         <!--
           <h3>2018 Sponsors:</h3>
           <h4>To Become a <span class="mainColor">SPONSOR</span> or find out more information download our sponsor packet:
