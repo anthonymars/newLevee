@@ -34,6 +34,8 @@ Live on the Levee | Charleston, WV's Free Friday Concert Series
         event is Free of Charge!</p>
         <h3 class="text-center">We Are Now Accepting Band Submissions!</h3>
         <p class="text-center"><a href="{{ asset('/docs/lotlBandSubmissionForm2018.docx') }}">2018 Band Submission Form</a></p>
+        <h3 class="text-center">And Food Vendor Applications</h3>
+        <p class="text-center"><a href="{{ asset('/docs/LOTLfoodVendor2018.docx') }}">2018 Band Submission Form</a></p>
       </div>
     </div>
   </div>
