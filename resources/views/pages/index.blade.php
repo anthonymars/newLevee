@@ -32,8 +32,8 @@ Live on the Levee | Charleston, WV's Free Friday Concert Series
         through early September. Music starts at 6:30pm with the headliner starting at 7:30pm.
         Entry starts at 5:00pm and will end around 9:30pm. Admission to this fantastic
         event is Free of Charge!</p>
-        
-        <h3 class="text-center">And Food Vendor Applications</h3>
+
+        <h3 class="text-center">Food Vendor Applications</h3>
         <p class="text-center"><a href="{{ asset('/docs/LOTLfoodVendor2018.docx') }}">2018 Food Vendor Form</a></p>
       </div>
     </div>
@@ -89,9 +89,8 @@ Live on the Levee | Charleston, WV's Free Friday Concert Series
       <div class="col-md-6 leftEvent">
         <h3 class="dropDownh3">Upcoming Events</h3>
         @if ($events->count() < 1)
-          <h3><span class="mainColor">WE ARE NOW ACCEPTING BAND SUBMISSIONS!</span></h3>
-          <h4>Download the form below:</h4>
-          <a href="{{ asset('/docs/lotlBandSubmissionForm2018.docx') }}">2018 Band Submission Form</a>
+          <h3 class="text-center">Food Vendor Applications</h3>
+          <p class="text-center"><a href="{{ asset('/docs/LOTLfoodVendor2018.docx') }}">2018 Food Vendor Form</a></p>
         <!--
           <h3>2018 Sponsors:</h3>
           <h4>To Become a <span class="mainColor">SPONSOR</span> or find out more information download our sponsor packet:
