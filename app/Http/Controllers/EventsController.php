@@ -18,7 +18,7 @@ class EventsController extends Controller
     public function index()
     {
         //$events = Event::orderBy('date')->get();
-        $events = Event::where('year', '2017')->orderBy('date', 'asc')->get();
+        $events = Event::where('year', '2018')->orderBy('date', 'asc')->get();
         return view('events.index', compact('events'));
     }
 
@@ -48,7 +48,7 @@ class EventsController extends Controller
     {
         $event = new Event;
         $event->user_id = Auth::id();
-        $event->year = '2017';
+        $event->year = '2018';
         $event->date = $request->date;
         $event->open = $request->open;
         $event->open_bio = $request->open_bio;
@@ -119,6 +119,37 @@ class EventsController extends Controller
         return view('admin.eventEdit', compact('event'));
     }
 
+    public function eventsApi() {
+        try {
+            $events = Event::all();
+            $statusCode = 200;
+            if (count($events) >= 1) {
+                foreach($events as $e) {
+                    $response[] = [
+                        'id' => $e->id,
+                        'date' => $e->date,
+                        'open' => $e->open,
+                        'open-bio' => $e->open_bio,
+                        'open-image' => $e->open_image,
+                        'night-tag' => $e->night_tag,
+                        'headline' => $e->headline,
+                        'headline-bio' => $e->headline_bio,
+                        'headline-image' => $e->headline_image
+                        ];
+                    }
+                }
+            } catch(Exception $e) {
+                $response = [
+                    "error" => "No Data"
+                ];
+
+        } finally {
+            return response()->json($response, $statusCode);
+
+        }
+
+    }
+
     /**
      * Update the specified resource in storage.
      *
@@ -130,7 +161,7 @@ class EventsController extends Controller
     {
       $event = Event::whereId($id)->first();
       $event->user_id = Auth::id();
-      $event->year = '2017';
+      $event->year = '2018';
       $event->date = $request->date;
       $event->open = $request->open;
       $event->open_bio = $request->open_bio;
